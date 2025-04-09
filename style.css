@@ -1,0 +1,91 @@
+html {
+    background-color: lightgrey;
+}
+
+#main-header {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Underdog", system-ui;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: blue;
+    text-transform: uppercase;
+}
+
+#main-header p {
+    font-family: "Caveat", cursive;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-family: "Underdog", system-ui;
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+    margin: 3rem;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.photo-frame {
+    display: inline-block;
+    width: 300px;
+    border: 5px solid indianred;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+#form {
+    margin: 50px auto;
+    padding: 30px;
+    border: 20px solid white;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    border: 5px solid green;
+    padding: 10px;
+    width: 90%;
+    max-width: 400px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+label {
+    font-family: "Caveat", cursive;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#txt {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
